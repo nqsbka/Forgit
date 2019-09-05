@@ -7,3 +7,6 @@ Cat.prototype.eat = function(dog){
 }
 
 module.exports = Cat;
+Cat.prototype.sleep = function(mouse){
+	this.stomach.push(mouse);
+}
